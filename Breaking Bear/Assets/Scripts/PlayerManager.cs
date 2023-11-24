@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
+    public GameObject GM;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +19,33 @@ public class PlayerManager : MonoBehaviour
         
     }
 
+    private void Seen()
+    {
+        GM.GetComponent<GameManager>().BeenSeen();
+    }
+    
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.tag == "Teddy")
         {
             col.GetComponent<DumbTeddyScript>().SetFollowTrue(this.gameObject);
         }
+
+        if (col.tag == "Checkpoint")
+        {
+            GM.GetComponent<GameManager>().SetLatestCheckpoint(col.gameObject);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.tag == "Enemy")
+                {
+                    if (other.gameObject.GetComponent<Enemy>().GetLookStatus())
+                    {
+                        Seen();
+                    }
+                }
     }
 
     private void OnTriggerExit2D(Collider2D col)
