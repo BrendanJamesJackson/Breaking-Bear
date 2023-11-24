@@ -35,17 +35,22 @@ public class PlayerManager : MonoBehaviour
         {
             GM.GetComponent<GameManager>().SetLatestCheckpoint(col.gameObject);
         }
+
+        if (col.tag == "Fluff")
+        {
+            GM.GetComponent<GameManager>().GetFluff();
+        }
     }
 
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag == "Enemy")
-                {
-                    if (other.gameObject.GetComponent<Enemy>().GetLookStatus())
-                    {
-                        Seen();
-                    }
-                }
+        {
+            if (other.gameObject.GetComponent<Enemy>().GetLookStatus())
+            {
+                Seen();
+            }
+        }
     }
 
     private void OnTriggerExit2D(Collider2D col)
