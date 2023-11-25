@@ -51,6 +51,11 @@ public class PlayerManager : MonoBehaviour
         {
             col.GetComponent<AudioTrigger>().Triggered();
         }
+
+        if (col.tag == "KeyRegion")
+        {
+            col.GetComponent<KeyRegion>().PlayerOn();
+        }
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -74,6 +79,11 @@ public class PlayerManager : MonoBehaviour
         if (col.tag == "RejectBear")
         {
             Reject.GetComponent<RejectBear>().OutRange();
+        }
+        
+        if (col.tag == "KeyRegion")
+        {
+            col.GetComponent<KeyRegion>().PlayerOff();
         }
     }
 }
