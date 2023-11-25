@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 20edb6dc6c40f4841a3fedc692c1cb30
+guid: f0fdd916134f15c448a096c835682899
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: side walk right_0
+      name: idle_0
       rect:
         serializedVersion: 2
-        x: 98
-        y: 5
-        width: 252
-        height: 307
+        x: 490
+        y: 627
+        width: 181
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cfb6dfc7e282df41af22b563e635afa
-      internalID: 1058285932
+      spriteID: 169d276b06813664d8714aec5ad7092a
+      internalID: 2129905649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: side walk right_1
+      name: idle_1
       rect:
         serializedVersion: 2
-        x: 408
-        y: 12
-        width: 245
-        height: 294
+        x: 694
+        y: 633
+        width: 180
+        height: 205
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,29 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7154d3dceb3edc24ebac5cddf2ecc575
-      internalID: -1464382516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: side walk right_2
-      rect:
-        serializedVersion: 2
-        x: 706
-        y: 5
-        width: 244
-        height: 301
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8080d736d5f877f4cb03f8793c1d32e6
-      internalID: 1157191274
+      spriteID: 5a6cb9e44b5c32a45809aef90df8609f
+      internalID: -910258540
       vertices: []
       indices: 
       edges: []
@@ -202,9 +181,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      side walk right_2: 1157191274
-      side walk right_1: -1464382516
-      side walk right_0: 1058285932
+      idle_0: 2129905649
+      idle_1: -910258540
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

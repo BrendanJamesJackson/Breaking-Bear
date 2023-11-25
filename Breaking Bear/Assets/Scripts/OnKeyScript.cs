@@ -7,6 +7,8 @@ public class OnKeyScript : MonoBehaviour
     private bool on_key = false;
 
     private DumbTeddyScript DTS;
+
+    public KeyRegion kr;
     
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,7 @@ public class OnKeyScript : MonoBehaviour
         if (on_key)
         {
             DTS.SetOnKey();
+            
         }
     }
     
@@ -29,6 +32,7 @@ public class OnKeyScript : MonoBehaviour
         {
             //Debug.Log("key test");
             on_key = true;
+            kr.AddTeddy();
         }
     }
 }

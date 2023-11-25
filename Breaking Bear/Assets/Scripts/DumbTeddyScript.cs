@@ -52,4 +52,6 @@ public class DumbTeddyScript : MonoBehaviour
             on_key = true;
         
     }
+    
+    
 }

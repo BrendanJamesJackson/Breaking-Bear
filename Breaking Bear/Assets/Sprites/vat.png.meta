@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 20edb6dc6c40f4841a3fedc692c1cb30
+guid: 2b83fd1368338fe448e1a811e151503f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -114,7 +114,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: side walk right_0
+      name: vat_0
       rect:
         serializedVersion: 2
-        x: 98
-        y: 5
-        width: 252
-        height: 307
+        x: 82
+        y: 278
+        width: 129
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cfb6dfc7e282df41af22b563e635afa
-      internalID: 1058285932
+      spriteID: 9a33db9caa30db34da50b05dab072f7e
+      internalID: 508581052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: side walk right_1
+      name: vat_1
       rect:
         serializedVersion: 2
-        x: 408
-        y: 12
-        width: 245
-        height: 294
+        x: 331
+        y: 435
+        width: 177
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7154d3dceb3edc24ebac5cddf2ecc575
-      internalID: -1464382516
+      spriteID: 722d6d29e9e3b574a991f04a0d533522
+      internalID: 24202799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: side walk right_2
+      name: vat_2
       rect:
         serializedVersion: 2
-        x: 706
-        y: 5
-        width: 244
-        height: 301
+        x: 320
+        y: 208
+        width: 160
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8080d736d5f877f4cb03f8793c1d32e6
-      internalID: 1157191274
+      spriteID: 134866869b07cd249809d49bd4ecc3df
+      internalID: 2047793684
       vertices: []
       indices: 
       edges: []
@@ -202,9 +202,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      side walk right_2: 1157191274
-      side walk right_1: -1464382516
-      side walk right_0: 1058285932
+      vat_0: 508581052
+      vat_1: 24202799
+      vat_2: 2047793684
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

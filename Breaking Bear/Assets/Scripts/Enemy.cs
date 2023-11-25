@@ -13,6 +13,8 @@ public class Enemy : MonoBehaviour
     private float time_remaining;
 
     public GameObject look_radius;
+
+    public Animator anim;
     
     // Start is called before the first frame update
     void Start()
@@ -23,15 +25,16 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        anim.SetBool("looking", looking);
         if (working)
         {
             NowWorking();
-            GetComponent<SpriteRenderer>().color = Color.green;
+            //GetComponent<SpriteRenderer>().color = Color.green;
         }
         else if (looking)
         {
             NowLooking();
-            GetComponent<SpriteRenderer>().color = Color.red;
+            //GetComponent<SpriteRenderer>().color = Color.red;
 
         }
     }

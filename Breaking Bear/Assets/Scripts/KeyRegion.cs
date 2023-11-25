@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class KeyRegion : MonoBehaviour
 {
     public int RequiredTeddyNum;
-    private int CurrentTeddy;
+    public int CurrentTeddy;
     private bool PlayerOnKey;
     private bool Activated = false;
     
@@ -24,6 +25,11 @@ public class KeyRegion : MonoBehaviour
             {
                 Activated = true;
             }
+        }
+
+        if (Activated)
+        {
+            SceneManager.LoadScene(2);
         }
     }
 

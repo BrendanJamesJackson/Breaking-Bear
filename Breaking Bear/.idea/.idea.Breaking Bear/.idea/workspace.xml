@@ -37,6 +37,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../BB1\Breaking Bear.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\BB1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Programs\UnityVersions\2021.3.11f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;D:\Breaking-Bear\Breaking Bear&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -76,7 +84,7 @@
       <updated>1700811958919</updated>
       <workItem from="1700811984391" duration="11688000" />
       <workItem from="1700857400366" duration="3078000" />
-      <workItem from="1700898994686" duration="7897000" />
+      <workItem from="1700898994686" duration="11848000" />
     </task>
     <servers />
   </component>

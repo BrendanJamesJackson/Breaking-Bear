@@ -15,6 +15,8 @@ public class Movement : MonoBehaviour
     private float current_speed;
 
     private Rigidbody2D rb;
+
+    public Animator anim;
     
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,42 @@ public class Movement : MonoBehaviour
         {
             //rb.AddForce(new Vector2(Input.GetAxis("Horizontal") * current_speed,0f), ForceMode2D.Impulse);
             rb.velocity = new Vector2(Input.GetAxis("Horizontal") * current_speed, Input.GetAxis("Vertical") * current_speed);
+            if (Input.GetAxis("Horizontal") == -1)
+            {
+                /*anim.SetBool("left", true);
+                anim.SetBool("right", false);
+                anim.SetBool("back", false);*/
+                anim.SetBool("front", true);
+                anim.SetBool("idle", false);
+
+
+            }
+            else
+            {
+                /*anim.SetBool("left", false);
+                anim.SetBool("right", true);
+                anim.SetBool("back", false);*/
+                anim.SetBool("front", true);
+                anim.SetBool("idle", false);
+
+            }
+            if (Input.GetAxis("Vertical") == -1)
+            {
+                /*anim.SetBool("left", false);
+                anim.SetBool("right", false);
+                anim.SetBool("back", false);*/
+                anim.SetBool("front", true);
+                anim.SetBool("idle", false);
+            }
+            else
+            {
+                /*anim.SetBool("left", false);
+                anim.SetBool("right", false);
+                anim.SetBool("back", true);*/
+                anim.SetBool("front", true);
+                anim.SetBool("idle", false);
+
+            }
         }
         /*if (Input.GetAxis("Vertical") != 0)
         {
@@ -47,11 +85,28 @@ public class Movement : MonoBehaviour
         if (Input.GetAxis("Horizontal") == 0)
         {
             rb.velocity = Vector2.Lerp(rb.velocity, new Vector2(0f, rb.velocity.y), Time.deltaTime);
+            /*anim.SetBool("left", false);
+            anim.SetBool("right", false);
+            anim.SetBool("back", false);
+            anim.SetBool("front", false);
+            anim.SetBool("idle", true);*/
+
         }
         if (Input.GetAxis("Vertical") == 0)
         {
             rb.velocity = Vector2.Lerp(rb.velocity, new Vector2(rb.velocity.x,0f), Time.deltaTime);
+            /*anim.SetBool("left", false);
+            anim.SetBool("right", false);
+            anim.SetBool("back", false);
+            anim.SetBool("front", false);
+            anim.SetBool("idle", true);*/
 
+        }
+
+        if (Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0)
+        {
+            anim.SetBool("front", false);
+            anim.SetBool("idle", true);
         }
     }
 

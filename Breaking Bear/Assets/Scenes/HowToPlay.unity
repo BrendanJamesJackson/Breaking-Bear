@@ -186,9 +186,7 @@ MonoBehaviour:
     Today we make a stand, today is the day that we are no longer just masses of
     plush to be used then forgotten. The time of toys is done, it is our turn to
     play!\r\n\r\n\rKeybinds:\r\n\r\nUse the W, A, S and D keys to move.\n\nUse the
-    SPACEBAR to shake fluff and walk over it to pick it up. \r\n\r\nYou also can't
-    get caught! So use the F key fake so workers don't catch you! \r\n\nUse the LEFT
-    MOUSE BUTTON to pick up and drag fluff in certain instances.\n"
+    LEFT MOUSE BUTTON to pick up and drag fluff in certain instances.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a4c4b5a5eaddd4c4f82ee48511a4b560, type: 2}
   m_sharedMaterial: {fileID: 6636610446861424781, guid: a4c4b5a5eaddd4c4f82ee48511a4b560, type: 2}
