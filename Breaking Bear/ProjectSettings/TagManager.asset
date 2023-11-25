@@ -8,6 +8,7 @@ TagManager:
   - KeyRegion
   - Enemy
   - Checkpoint
+  - Fluff
   layers:
   - Default
   - TransparentFX

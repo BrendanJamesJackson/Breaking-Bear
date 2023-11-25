@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,8 @@ public class Enemy : MonoBehaviour
     public float working_interval;
     public float looking_duration;
     private float time_remaining;
+
+    public GameObject look_radius;
     
     // Start is called before the first frame update
     void Start()
@@ -40,6 +43,7 @@ public class Enemy : MonoBehaviour
             working = false;
             looking = true;
             time_remaining = looking_duration;
+            look_radius.SetActive(true);
         }
         else
         {
@@ -54,6 +58,7 @@ public class Enemy : MonoBehaviour
             working = true;
             looking = false;
             time_remaining = working_interval;
+            look_radius.SetActive(false);
         }
         else
         {
@@ -65,4 +70,6 @@ public class Enemy : MonoBehaviour
     {
         return looking;
     }
+
+   
 }

@@ -11,6 +11,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DumbTeddyScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyRegion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuSceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwipeFluff.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,6 +72,7 @@
       <updated>1700811958919</updated>
       <workItem from="1700811984391" duration="11688000" />
       <workItem from="1700857400366" duration="3078000" />
+      <workItem from="1700898994686" duration="4385000" />
     </task>
     <servers />
   </component>
