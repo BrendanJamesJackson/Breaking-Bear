@@ -9,6 +9,8 @@ TagManager:
   - Enemy
   - Checkpoint
   - Fluff
+  - RejectBear
+  - AudioPoint
   layers:
   - Default
   - TransparentFX

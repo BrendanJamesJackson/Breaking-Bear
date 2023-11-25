@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     public GameObject GM;
+    public GameObject Reject;
     
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,16 @@ public class PlayerManager : MonoBehaviour
         {
             GM.GetComponent<GameManager>().GetFluff();
         }
+
+        if (col.tag == "RejectBear")
+        {
+            Reject.GetComponent<RejectBear>().InRange();
+        }
+
+        if (col.tag == "AudioPoint")
+        {
+            col.GetComponent<AudioTrigger>().Triggered();
+        }
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -58,5 +69,11 @@ public class PlayerManager : MonoBehaviour
         if (col.tag == "Teddy")
         {
             col.GetComponent<DumbTeddyScript>().SetFollowFalse();
-        }    }
+        }    
+        
+        if (col.tag == "RejectBear")
+        {
+            Reject.GetComponent<RejectBear>().OutRange();
+        }
+    }
 }
