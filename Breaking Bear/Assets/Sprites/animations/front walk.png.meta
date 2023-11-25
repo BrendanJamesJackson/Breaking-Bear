@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 814d41e3bf9d6174b9230ae2ef9af96a
+guid: 3b80bff02d4492a419fbb6c03f8a8c72
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork 1_0
+      name: front walk_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 74
-        width: 76
-        height: 176
+        x: 74
+        y: 7
+        width: 257
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5b4b7e9811f7d7418d1656f20856e68
-      internalID: -2116375069
+      spriteID: d2f23d7d86b970740829a46683a55bf4
+      internalID: 1932985841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_1
+      name: front walk_1
       rect:
         serializedVersion: 2
-        x: 174
-        y: 59
-        width: 84
-        height: 185
+        x: 377
+        y: 1
+        width: 251
+        height: 299
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b7d624737a4964eb4729e562277285
-      internalID: -602454261
+      spriteID: 17f3471c721fd9f46a283a95b25fa6ff
+      internalID: 1459488335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front walk_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 259
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f363d320dde3424ea4624cfabba773b
+      internalID: 1520669172
       vertices: []
       indices: 
       edges: []
@@ -169,8 +190,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Untitled_Artwork 1_0: -2116375069
-      Untitled_Artwork 1_1: -602454261
+      front walk_2: 1520669172
+      front walk_1: 1459488335
+      front walk_0: 1932985841
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

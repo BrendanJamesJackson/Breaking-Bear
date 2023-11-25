@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 814d41e3bf9d6174b9230ae2ef9af96a
+guid: eba9bde8c1112da4bad322dcd80a2eec
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork 1_0
+      name: shake_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 74
-        width: 76
-        height: 176
+        x: 466
+        y: 628
+        width: 186
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5b4b7e9811f7d7418d1656f20856e68
-      internalID: -2116375069
+      spriteID: 275f02e360debdf45a8c20124c305490
+      internalID: -313454111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_1
+      name: shake_1
       rect:
         serializedVersion: 2
-        x: 174
-        y: 59
-        width: 84
-        height: 185
+        x: 694
+        y: 633
+        width: 185
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b7d624737a4964eb4729e562277285
-      internalID: -602454261
+      spriteID: 36202bb47dec982428032c88a7b2c703
+      internalID: -776099824
       vertices: []
       indices: 
       edges: []
@@ -169,8 +169,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Untitled_Artwork 1_0: -2116375069
-      Untitled_Artwork 1_1: -602454261
+      shake_0: -313454111
+      shake_1: -776099824
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 814d41e3bf9d6174b9230ae2ef9af96a
+guid: 38c16ed83fdd6974db664c4880a53fa8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork 1_0
+      name: otherbear_front_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 74
-        width: 76
-        height: 176
+        x: 12
+        y: 3
+        width: 166
+        height: 194
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5b4b7e9811f7d7418d1656f20856e68
-      internalID: -2116375069
+      spriteID: 9de6b1a2c1f7a8a4b97a572ceff9fab4
+      internalID: 1189672632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_1
+      name: otherbear_front_1
       rect:
         serializedVersion: 2
-        x: 174
-        y: 59
-        width: 84
-        height: 185
+        x: 207
+        y: 0
+        width: 162
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b7d624737a4964eb4729e562277285
-      internalID: -602454261
+      spriteID: f8841a243ddc12345b858eb3c4d7e79d
+      internalID: 580725229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: otherbear_front_2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 0
+        width: 167
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f88e69cbcd80d4c80a542c2186ec0e
+      internalID: 230815552
       vertices: []
       indices: 
       edges: []
@@ -169,8 +190,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Untitled_Artwork 1_0: -2116375069
-      Untitled_Artwork 1_1: -602454261
+      otherbear_front_0: 1189672632
+      otherbear_front_2: 230815552
+      otherbear_front_1: 580725229
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

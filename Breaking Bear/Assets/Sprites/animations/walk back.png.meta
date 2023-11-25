@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 814d41e3bf9d6174b9230ae2ef9af96a
+guid: 0ac054971c15c594786a01567b9249fa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork 1_0
+      name: walk back_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 74
-        width: 76
-        height: 176
+        x: 80
+        y: 18
+        width: 244
+        height: 293
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5b4b7e9811f7d7418d1656f20856e68
-      internalID: -2116375069
+      spriteID: 66c48bf19dc748e4488b52c9e9d723e7
+      internalID: -1606864035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 1_1
+      name: walk back_1
       rect:
         serializedVersion: 2
-        x: 174
-        y: 59
-        width: 84
-        height: 185
+        x: 384
+        y: 11
+        width: 244
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b7d624737a4964eb4729e562277285
-      internalID: -602454261
+      spriteID: 14ee5c895780e85419e3da3a9b14b07b
+      internalID: 1248525580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk back_2
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 11
+        width: 237
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449a32301afce6542bd29ea5444c3077
+      internalID: 67143235
       vertices: []
       indices: 
       edges: []
@@ -169,8 +190,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Untitled_Artwork 1_0: -2116375069
-      Untitled_Artwork 1_1: -602454261
+      walk back_2: 67143235
+      walk back_1: 1248525580
+      walk back_0: -1606864035
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
